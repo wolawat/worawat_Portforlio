@@ -16,7 +16,7 @@ app.set('view engine', 'hbs');
 });*/
 
 //router
-app.use('/profile', router);
+app.use('/', router);
 
 //Middleware
 app.use(express.static(path.join(__dirname, 'public')));

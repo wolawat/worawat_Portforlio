@@ -4,19 +4,19 @@ const data = {
     "motto" : "When you stop advancing, you’ve already begun to retreat.",
     "work" : "Student at Software Engineering Program in Nakhon Pathom Rajabhat University",
     "aboutme" : {
-        "name" : "Mr.Thanayut Samsang",
-        "nickname" : "Noch",
+        "name" : "Mr.Worawat Rattanosod",
+        "nickname" : "Earth",
         "sex" : "Male",
         "education" : "Songphinongwittaya School",
-        "date" : "Saturday 4th September 1999",
+        "date" : "Monday 8th Novemder 1999",
         "age" : "21 years",
         "nationality" : "Thai",
         "race" : "Thai",
         "religion" : "Buddhism",
         "bloodgroup" : "B",
-        "address" : "88/1 Moo.12 Bangtatan Songphinong Suphanburi 72110",
-        "phone" : "0651134910",
-        "email" : "614259018@webmail.npru.ac.th",
+        "address" : "153 Moo.14 Bangtatan Songphinong Suphanburi 72110",
+        "phone" : "0621959570",
+        "email" : "614259052@webmail.npru.ac.th",
         "characteristic" : "Talk openly",
         "hobbies" : "Listen to music, See movie, Betta fish farming, Learn more about your interests.",
         "sport" : "Futsal",
@@ -43,11 +43,11 @@ const data = {
         "json" : "Level-Basic"
     },
     "contact" : {
-        "fb" : "Thanayut Samsang",
-        "ig" : "The.NOCH",
-        "line" : "p.nochee",
-        "email" : "614259018@webmail.npru.ac.th",
-        "phone" : "0651134910"
+        "fb" : "Worawat Rattanosod",
+        "ig" : "pearth.1999",
+        "line" : "1412z",
+        "email" : "614259052@webmail.npru.ac.th",
+        "phone" : "0621959570"
     }
 };
 module.exports = data;
