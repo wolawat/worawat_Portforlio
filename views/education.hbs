@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="/index.css">
+<body>
+    <h1 class="edt">Eduction</h1>
+    <div class="flexbox">
+        {{#with myData.education}}
+            <div class="edbox">
+                <div class="box"><li class="ctn"><span class="first-block">Kindergarten &nbsp: &nbsp&nbsp</span><span class="second-block"> {{education1}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Elementary school &nbsp: &nbsp&nbsp</span><span class="second-block"> {{education2}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">High school &nbsp: &nbsp&nbsp</span><span class="second-block"> {{education3}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">University &nbsp: &nbsp&nbsp</span><span class="second-block"> {{education4}}</span></li></div>
+            </div>
+        {{/with}}
+    </div>
+</body>

@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="/index.css">
+<body>
+    <h1 class="abm">About me</h1>
+        <div class="flexbox">
+                {{#with myData.aboutme}}
+                <div class="box"><li class="ctn"><span class="first-block">Full name &nbsp: &nbsp&nbsp</span><span class="second-block"> {{name}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Nickname &nbsp: &nbsp&nbsp</span><span class="second-block"> {{nickname}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Sex &nbsp: &nbsp&nbsp</span><span class="second-block"> {{sex}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Education &nbsp: &nbsp&nbsp</span><span class="second-block"> {{education}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Date &nbsp: &nbsp&nbsp</span><span class="second-block"> {{date}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Age &nbsp: &nbsp&nbsp</span><span class="second-block"> {{age}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Nationality &nbsp: &nbsp&nbsp</span><span class="second-block"> {{nationality}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Race &nbsp: &nbsp&nbsp</span><span class="second-block"> {{race}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Religion &nbsp: &nbsp&nbsp</span><span class="second-block"> {{religion}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Bloodgroup &nbsp: &nbsp&nbsp</span><span class="second-block"> {{bloodgroup}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Address &nbsp: &nbsp&nbsp</span><span class="second-block"> {{address}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Phone &nbsp: &nbsp&nbsp</span><span class="second-block"> {{phone}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Email &nbsp: &nbsp&nbsp</span><span class="second-block">
+                    <a class="email" href="mailto:{{email}}"> {{email}}</a>
+                </span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Characteristic &nbsp: &nbsp&nbsp</span><span class="second-block"> {{characteristic}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Hobbies &nbsp: &nbsp&nbsp</span><span class="second-block"> {{hobbies}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Sport &nbsp: &nbsp&nbsp</span><span class="second-block"> {{sport}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Pets &nbsp: &nbsp&nbsp</span><span class="second-block"> {{pets}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Attitude &nbsp: &nbsp&nbsp</span><span class="second-block"> {{attitude}}</span></li></div>
+                <div class="box"><li class="ctn"><span class="first-block">Motto &nbsp: &nbsp&nbsp</span><span class="second-block"> {{motto}}</span></li></div>
+                {{/with}}
+        </div>
+</body>

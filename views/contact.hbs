@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="/index.css">
+<body>
+    <h1 class="cta">Contact</h1>
+    <div class="flexboxcta">
+        {{#with myData.contact}}
+            <div class="boxcta">
+                <li class="ctn">
+                    <span class="first-block">Facebook &nbsp: &nbsp&nbsp</span><span class="second-block"> {{fb}}</span>
+                </li>
+            </div>
+            <div class="boxcta">
+                <li class="ctn">
+                    <span class="first-block">Instagram &nbsp: &nbsp&nbsp</span><span class="second-block"> {{ig}}</span>
+                </li>
+            </div>
+            <div class="boxcta">
+                <li class="ctn">
+                    <span class="first-block">Line ID &nbsp: &nbsp&nbsp</span><span class="second-block"> {{line}}</span>
+                </li>
+            </div>
+            <div class="boxcta">
+                <li class="ctn">
+                    <span class="first-block">Email &nbsp: &nbsp&nbsp</span><span class="second-block">
+                        <a class="email" href="mailto:{{email}}"> {{email}}</a>
+                    </span>
+                </li>
+            </div>
+             <div class="boxcta">
+                 <li class="ctn">
+                    <span class="first-block">Phone number &nbsp: &nbsp&nbsp</span><span class="second-block"> {{phone}}</span>
+                </li>
+             </div>
+        {{/with}}
+    </div>
+</body>

@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/index.css">
+<body>
+    <h1 class="skill">Skill</h1>
+    <div class="flexbox">
+        {{#with myData.skill}}
+            <div class="skbox">
+                <li class="ctn">
+                    <span class="first-block">HTML &nbsp: &nbsp&nbsp</span><span class="second-block"> {{html}}</span>
+                </li>
+                <li class="ctn">
+                    <span class="first-block">CSS &nbsp: &nbsp&nbsp</span><span class="second-block"> {{css}}</span>
+                </li>
+                <li class="ctn">
+                    <span class="first-block">JAVASCRIPT &nbsp: &nbsp&nbsp</span><span class="second-block"> {{javascript}}</span>
+                </li>
+                <li class="ctn">
+                    <span class="first-block">PHP &nbsp: &nbsp&nbsp</span><span class="second-block"> {{php}}</span>
+                </li>
+                <li class="ctn">
+                    <span class="first-block">JAVA &nbsp: &nbsp&nbsp</span><span class="second-block"> {{java}}</span>
+                </li>
+                <li class="ctn">
+                    <span class="first-block">JSON &nbsp: &nbsp&nbsp</span><span class="second-block"> {{json}}</span>
+                </li>
+                <li class="ctn">
+                    <span class="first-block">SQL &nbsp: &nbsp&nbsp</span><span class="second-block"> {{sql}}</span>
+                </li>
+            </div>
+        {{/with}}
+    </div>
+</body>

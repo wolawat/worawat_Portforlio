@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#24252a;
+}
+
+li, a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.logo {
+    padding: 9px 25px;
+    font-size: 16px;
+    font-weight: 820;
+    color: #24252a;
+    background-color: #f4a7bb;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.logo:hover {
+    background-color: #f4a7bb ;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover{
+    color: #f4a7bb;
+
+}
+
+.contact {
+    margin-left: auto;
+    padding: 9px 25px;
+    font-size: 16px;
+    font-weight: 720;
+    color: #24252a;
+    background-color: #f4a7bb;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.contact:hover {
+    background-color: #f4a7bb ;
+}
+
+.bg {
+    background-image: url("https://images.unsplash.com/photo-1522332870908-7c428896fb25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    display: flex;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.content {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    box-sizing: border-box;
+    padding: 130px 0px;
+}
+
+.image {
+    margin-left: 100px;
+    width: 55%;
+    -moz-border-radius: 700px;
+    -webkit-border-radius: 700px;
+    border-radius: 700px;
+}
+
+main {
+    box-sizing: border-box;
+}
+
+.idx1 {
+    padding-top: 150px;
+    padding-left: 7.8%;
+    color:#ffffff ;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.idx2 {
+    padding-top: 10px;
+    padding-left: 7.8%;
+    color:#ffffff ;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+.ft {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 40px;
+}
+
+.abm {
+    padding-top: 10px;
+    padding-left: 7.8%;
+    margin-top: 50px;
+    color:#ffffff ;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.edt {
+    padding-top: 10px;
+    padding-left: 15%;
+    margin-top: 50px;
+    color:#ffffff ;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.exp {
+    padding-top: 10px;
+    padding-left: 105px;
+    margin-top: 50px;
+    color:#ffffff ;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.skill {
+    padding-top: 10px;
+    padding-left: 15%;
+    margin-top: 50px;
+    color:#ffffff ;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.cta {
+    padding-top: 10px;
+    padding-left: 7.8%;
+    margin-top: 50px;
+    color:#ffffff ;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.flexbox {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexboxcta {
+    margin-top: 50px;
+    margin-bottom: 120px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding-top: 10px;
+    padding-left: 7.8%;
+    display: block;
+    box-sizing: border-box;
+    width: 700px;
+}
+
+.edbox {
+    padding-top: 10px;
+    padding-left: 7.8%;
+    padding-bottom: 100px;
+    display: block;
+    box-sizing: border-box;
+    width: 700px;
+}
+
+.skbox {
+    padding-top: 10px;
+    padding-left: 15%;
+    padding-bottom: 100px;
+    display: block;
+    box-sizing: border-box;
+    width: 700px;
+}
+
+.boxcta {
+    padding-top: 10px;
+    padding-left: 7.8%;
+    width: 700px;
+}
+
+.ctn {
+    font-size: 20px;
+    padding: 16px;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+}
+
+.ctnexp {
+    font-size: 20px;
+    padding-top: 17px;
+    padding-left: 65px;
+    padding-bottom: 350px;
+}
+
+.email {
+    font-size: 20px;
+}
